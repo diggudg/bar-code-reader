@@ -1,1 +1,5 @@
-<p>quagga2 works!</p>
+<div #BarcodeScanner class="scanner" [hidden]="!isStarted" [style.max-height]="_maxHeight"
+    [style.max-width]="_maxWidth">
+    <video [style.max-height]="_maxHeight" [style.max-width]="_maxWidth"></video>
+    <canvas [style.max-height]="_maxHeight" [style.max-width]="_maxWidth" class="drawingBuffer"></canvas>
+</div>
