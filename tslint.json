@@ -147,6 +147,13 @@
       "element",
       "app",
       "kebab-case"
+    ],
+    "no-implicit-dependencies": [
+      true,
+      [
+        "src",
+        "app"
+      ]
     ]
   }
 }
